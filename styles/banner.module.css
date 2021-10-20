@@ -1,0 +1,49 @@
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(#901f46ba, #161818c4),
+    url("../images/banner.jpg");
+  background-size: cover;
+
+  height: 100%;
+  max-height: 526px;
+  width: 100%;
+  min-height: 500px;
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  padding-top: 6em;
+  text-align: center;
+}
+.contactform {
+  /* background-color: white;
+  backdrop-filter: blur(10px); */
+  padding-block: 3em;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgb(141 64 90 / 39%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.contact {
+  text-transform: uppercase;
+}
+.fname:focus {
+  border-bottom-color: red;
+}
+.submit {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 1em;
+  background-color: #4a2038c7;
+}
+.fname::after {
+  color: red !important;
+  border-bottom: 1px solid red !important;
+}
+.logo {
+  width: 10%;
+}
+.form-control {
+  border: 1px solid rgba(255, 0, 0, 0.021) !important;
+}

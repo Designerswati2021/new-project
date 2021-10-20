@@ -1,0 +1,16 @@
+.featureimg {
+  width: 30%;
+  height: auto;
+  border-radius: 7px;
+}
+.featureheading {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+.main {
+  display: flex;
+}
+.contents {
+  margin-left: 20px;
+}
